@@ -1,3 +1,10 @@
 file = open("Codingal,txt")
 print(file.read())
 file.close()
+file_write.write("file in write mode......")
+file_write.write("Hi i am penguin i  am 1yr old......")
+file_write.close()
+file_append = open ("coding text,a")
+file_append.write("\n File in append mode......")
+file_write.write("Hi i am penguin i  am 1yr old.")
+file_append.close
